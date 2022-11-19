@@ -39,6 +39,12 @@ $ yarn install
 $ docker-compose up -d
 ```
 
+## Run SEED
+
+```bash
+$ curl http://localhost:4700/api/v1/seed
+```
+
 ## Rename **.env-template** file to **.env** into the projecto and setting your local environment variables
 
 ## Running the app
