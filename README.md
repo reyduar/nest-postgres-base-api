@@ -76,3 +76,17 @@ $ curl https://nest-pdex-api.herokuapp.com/api/v1/pokemon/all
    `docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build`
 4. Second time use:
    `docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d`
+
+### Nest commands
+
+### Generate resources
+
+```bash
+$ nest g res files --no-spec
+```
+
+### Dependency to upload images (https://docs.nestjs.com/techniques/file-upload)
+
+```bash
+$ yarn add -D @types/multer
+```
